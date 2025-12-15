@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maheshwari Samaj Navyuvak Mandal | Home (Layout 3)</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+<div class="shell">
+
+    <aside class="sidebar" aria-label="Sidebar">
+      <a class="brand" href="index.html">
+        <div class="logo">M</div>
+        <div>
+          <b>Maheshwari Samaj</b>
+          <small>Navyuvak Mandal Portal</small>
+        </div>
+      </a>
+
+      <div class="card" style="box-shadow:none">
+        <div class="cardBd">
+          <div class="help"><b>Quick Actions</b></div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+            <a class="btn yellow" href="signup.html">Join</a>
+            <a class="btn" href="business-add.html">Add Business</a>
+            <a class="btn" href="jobs-post.html">Post Job</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navGroup">
+        <div class="navTitle">Navigation</div>
+<a class="navItem" data-nav="home" href="index.html"><span class="navIc">🏠</span><span>Home</span></a>
+<a class="navItem" data-nav="business-search" href="business-search.html"><span class="navIc">🏪</span><span>Business Directory</span></a>
+<a class="navItem" data-nav="business-add" href="business-add.html"><span class="navIc">➕</span><span>Add Business</span></a>
+<a class="navItem" data-nav="jobs-search" href="jobs-search.html"><span class="navIc">💼</span><span>Jobs</span></a>
+<a class="navItem" data-nav="jobs-post" href="jobs-post.html"><span class="navIc">📌</span><span>Post Job</span></a>
+<a class="navItem" data-nav="resume-upload" href="resume-upload.html"><span class="navIc">📄</span><span>Resume Upload</span></a>
+<a class="navItem" data-nav="resume-search" href="resume-search.html"><span class="navIc">🔎</span><span>Resume Search</span></a>
+<a class="navItem" data-nav="members" href="members.html"><span class="navIc">👥</span><span>Members</span></a>
+<a class="navItem" data-nav="contact" href="contact.html"><span class="navIc">☎️</span><span>Contact</span></a>
+<a class="navItem" data-nav="login" href="login.html"><span class="navIc">🔐</span><span>Login</span></a>
+<a class="navItem" data-nav="signup" href="signup.html"><span class="navIc">📝</span><span>Sign Up</span></a>
+      </div>
+
+      <div style="margin-top:auto" class="help">
+        <b>Admin Note:</b> This is frontend demo.<br>Connect Laravel backend later.
+      </div>
+    </aside>
+    
+  <div>
+    
+    <header class="topbar">
+      <div class="container">
+        <div class="topbarInner">
+          <button class="iconBtn" id="openDrawer" aria-label="Open menu">☰</button>
+          <a class="brand" href="index.html" style="gap:10px">
+            <div class="logo" style="width:38px;height:38px;border-radius:14px">M</div>
+            <div>
+              <b style="font-size:13px">Maheshwari Samaj</b>
+              <small style="font-weight:800">Navyuvak Mandal</small>
+            </div>
+          </a>
+          <a class="iconBtn" href="login.html" aria-label="Login">🔐</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobileDrawer" id="mobileDrawer" aria-label="Mobile menu">
+      <div class="drawerPanel">
+        <div class="drawerCloseRow">
+          <div class="brand">
+            <div class="logo" style="width:40px;height:40px">M</div>
+            <div><b>Maheshwari Samaj</b><small>Navyuvak Mandal Portal</small></div>
+          </div>
+          <button class="iconBtn" id="closeDrawer" aria-label="Close menu">✕</button>
+        </div>
+
+        <div class="card" style="box-shadow:none; margin-bottom:10px">
+          <div class="cardBd">
+            <div class="help"><b>Quick Actions</b></div>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+              <a class="btn yellow" href="signup.html">Join</a>
+              <a class="btn" href="business-add.html">Add Business</a>
+              <a class="btn" href="jobs-post.html">Post Job</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navGroup">
+          <div class="navTitle">Navigation</div>
+          <a class="navItem" data-nav="home" href="index.html"><span class="navIc">🏠</span><span>Home</span></a>
+          <a class="navItem" data-nav="business-search" href="business-search.html"><span class="navIc">🏪</span><span>Business Directory</span></a>
+          <a class="navItem" data-nav="business-add" href="business-add.html"><span class="navIc">➕</span><span>Add Business</span></a>
+          <a class="navItem" data-nav="jobs-search" href="jobs-search.html"><span class="navIc">💼</span><span>Jobs</span></a>
+          <a class="navItem" data-nav="jobs-post" href="jobs-post.html"><span class="navIc">📌</span><span>Post Job</span></a>
+          <a class="navItem" data-nav="resume-upload" href="resume-upload.html"><span class="navIc">📄</span><span>Resume Upload</span></a>
+          <a class="navItem" data-nav="resume-search" href="resume-search.html"><span class="navIc">🔎</span><span>Resume Search</span></a>
+          <a class="navItem" data-nav="members" href="members.html"><span class="navIc">👥</span><span>Members</span></a>
+          <a class="navItem" data-nav="contact" href="contact.html"><span class="navIc">☎️</span><span>Contact</span></a>
+          <a class="navItem" data-nav="login" href="login.html"><span class="navIc">🔐</span><span>Login</span></a>
+          <a class="navItem" data-nav="signup" href="signup.html"><span class="navIc">📝</span><span>Sign Up</span></a>
+        </div>
+      </div>
+    </div>
+    
+    <main class="page">
+      <div class="container">
+        
+<div class="heroBanner">
+  <div class="heroGrid">
+    <div>
+      <h1 class="heroTitle">Maheshwari Samaj Navyuvak Mandal Portal</h1>
+      <p class="heroSub">Events • Notices • Business Directory • Jobs • Members</p>
+
+      <div class="heroActions">
+        <a class="btn yellow" href="signup.html">Join / Register</a>
+        <a class="btn primary" href="business-search.html">Find Businesses</a>
+        <a class="btn" href="jobs-search.html">Find Jobs</a>
+        <a class="btn ghost" href="members.html">Committee & Members</a>
+      </div>
+
+      <div class="grid grid3" style="margin-top:14px">
+        <div class="card">
+          <div class="cardBd">
+            <div class="pill accent">📣 Notification</div>
+            <div style="margin-top:8px"><b>Membership Renewal Drive</b></div>
+            <div class="help">Active • 15 Dec 2025</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardBd">
+            <div class="pill">🗓️ Event</div>
+            <div style="margin-top:8px"><b>Monthly Samaj Meeting</b></div>
+            <div class="help">1st Sunday • 11 AM • Community Hall</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardBd">
+            <div class="pill">🤝 Support</div>
+            <div style="margin-top:8px"><b>Jobs & Business Help Desk</b></div>
+            <div class="help">Post jobs, upload businesses, and contact members</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="heroMiniSlider" id="heroSlider" aria-label="Highlights slider">
+      <div class="hSlide active">
+        <div>
+          <span class="pill accent">Highlights</span>
+          <div style="margin-top:10px"><b>Blood Donation Camp</b></div>
+          <div class="help">Photos • Community Service</div>
+        </div>
+        <div class="help"><b>Status:</b> Completed</div>
+      </div>
+      <div class="hSlide">
+        <div>
+          <span class="pill">Upcoming</span>
+          <div style="margin-top:10px"><b>Sports Meet 2026</b></div>
+          <div class="help">Youth Activities • Registration Open</div>
+        </div>
+        <div class="help"><b>Need:</b> Volunteers</div>
+      </div>
+      <div class="hSlide">
+        <div>
+          <span class="pill">Update</span>
+          <div style="margin-top:10px"><b>Job Fair</b></div>
+          <div class="help">Employers + Candidates Welcome</div>
+        </div>
+        <div class="help"><b>Date:</b> To be announced</div>
+      </div>
+      <div class="hDots">
+        <div class="hDot"></div><div class="hDot"></div><div class="hDot"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="contentGrid" style="margin-top:16px">
+  <div class="grid" style="gap:16px">
+    <div class="grid grid3">
+      <div class="card">
+        <div class="cardHd"><h3>Business Directory</h3><small>Search & contact</small></div>
+        <div class="cardBd">
+          <div class="help">Search businesses by category, pincode and near you (10 km).</div>
+        </div>
+        <div class="cardFt">
+          <a class="btn primary" href="business-search.html">Search</a>
+          <a class="btn" href="business-add.html">Upload</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardHd"><h3>Jobs & Requirements</h3><small>Apply & hire</small></div>
+        <div class="cardBd">
+          <div class="help">Members can apply. Businesses can post jobs and search resumes.</div>
+        </div>
+        <div class="cardFt">
+          <a class="btn primary" href="jobs-search.html">Find Jobs</a>
+          <a class="btn" href="jobs-post.html">Post Job</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardHd"><h3>News & Agenda</h3><small>Updates</small></div>
+        <div class="cardBd">
+          <ul style="margin:0; padding-left:18px" class="help">
+            <li>Camp planning meeting — Friday 7 PM</li>
+            <li>New scholarship desk opening</li>
+            <li>Sports committee registration open</li>
+          </ul>
+        </div>
+        <div class="cardFt">
+          <a class="btn" href="contact.html">Suggest News</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid2">
+      <div class="card">
+        <div class="cardHd"><h3>Latest Notifications</h3><small>Important</small></div>
+        <div class="cardBd">
+          <table style="width:100%; border-collapse:collapse">
+            <thead>
+              <tr>
+                <th style="text-align:left; padding:10px; color:var(--muted); font-size:12px">Date</th>
+                <th style="text-align:left; padding:10px; color:var(--muted); font-size:12px">Title</th>
+                <th style="text-align:left; padding:10px; color:var(--muted); font-size:12px">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:10px; border-top:1px solid rgba(16,24,40,.06)">15 Dec 2025</td><td style="padding:10px; border-top:1px solid rgba(16,24,40,.06)">Membership Renewal Drive</td><td style="padding:10px; border-top:1px solid rgba(16,24,40,.06)"><span class="pill">Open</span></td></tr>
+              <tr><td style="padding:10px; border-top:1px solid rgba(16,24,40,.06)">12 Dec 2025</td><td style="padding:10px; border-top:1px solid rgba(16,24,40,.06)">Job Fair — Register Now</td><td style="padding:10px; border-top:1px solid rgba(16,24,40,.06)"><span class="pill">New</span></td></tr>
+              <tr><td style="padding:10px; border-top:1px solid rgba(16,24,40,.06)">05 Dec 2025</td><td style="padding:10px; border-top:1px solid rgba(16,24,40,.06)">Blood Camp Report Uploaded</td><td style="padding:10px; border-top:1px solid rgba(16,24,40,.06)"><span class="pill">Done</span></td></tr>
+            </tbody>
+          </table>
+          <div class="help" style="margin-top:10px">Backend idea: Admin can manage notices and push to homepage.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardHd"><h3>Member Photos (Sample)</h3><small>Top contributors</small></div>
+        <div class="cardBd">
+          <div class="grid grid2">
+            <div class="card" style="box-shadow:none"><div class="cardBd"><b>R. Maheshwari</b><div class="help">Volunteer</div></div></div>
+            <div class="card" style="box-shadow:none"><div class="cardBd"><b>N. Maheshwari</b><div class="help">Coordinator</div></div></div>
+            <div class="card" style="box-shadow:none"><div class="cardBd"><b>K. Maheshwari</b><div class="help">Mentor</div></div></div>
+            <div class="card" style="box-shadow:none"><div class="cardBd"><b>P. Maheshwari</b><div class="help">Support</div></div></div>
+          </div>
+          <div class="help" style="margin-top:10px">Replace with real photos later (Laravel storage).</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cardHd"><h3>Departments</h3><small>Committees / Help Desks</small></div>
+      <div class="cardBd">
+        <div class="grid grid4">
+          <a class="card" style="box-shadow:none" href="members.html"><div class="cardBd"><b>Committee & Members</b><div class="help">Secretary • Joint Secretary • Treasurer</div></div></a>
+          <a class="card" style="box-shadow:none" href="business-search.html"><div class="cardBd"><b>Business Help Desk</b><div class="help">Promote member businesses + discounts</div></div></a>
+          <a class="card" style="box-shadow:none" href="jobs-search.html"><div class="cardBd"><b>Employment Desk</b><div class="help">Jobs, requirements, resumes</div></div></a>
+          <a class="card" style="box-shadow:none" href="contact.html"><div class="cardBd"><b>Support & Complaints</b><div class="help">Raise issues, suggestions, help</div></div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="adSlot" aria-label="Right Ad Slot">
+    <h4>Ad Space</h4>
+    <div class="ph">RIGHT AD</div>
+    <div class="help" style="margin-top:8px">Rectangle size recommended.</div>
+  </aside>
+</div>
+
+      </div>
+    </main>
+
+    <div id="toast" class="toast"></div>
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="footerCols">
+          <div>
+            <h4>About</h4>
+            <p>Community portal for events, notices, business directory and jobs.</p>
+            <small>Frontend demo (static). Connect with Laravel backend later.</small>
+          </div>
+          <div>
+            <h4>Quick Links</h4>
+            <p><a href="business-search.html">Business Search</a> • <a href="jobs-search.html">Jobs</a> • <a href="members.html">Members</a></p>
+            <p><a href="contact.html">Support</a> • <a href="signup.html">Create Account</a></p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <p>Helpline: +91-XXXXXXXXXX</p>
+            <p>Email: support@example.com</p>
+          </div>
+        </div>
+        <div style="margin-top:14px"><small>© 2025 Maheshwari Samaj Navyuvak Mandal.</small></div>
+      </div>
+    </footer>
+    
+  </div>
+</div>
+
+<script src="assets/js/data-business.js"></script>
+<script src="assets/js/data-jobs.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Upload Resume | Maheshwari Samaj (Layout 3)</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="resume-upload">
+<div class="shell">
+
+    <aside class="sidebar" aria-label="Sidebar">
+      <a class="brand" href="index.html">
+        <div class="logo">M</div>
+        <div>
+          <b>Maheshwari Samaj</b>
+          <small>Navyuvak Mandal Portal</small>
+        </div>
+      </a>
+
+      <div class="card" style="box-shadow:none">
+        <div class="cardBd">
+          <div class="help"><b>Quick Actions</b></div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+            <a class="btn yellow" href="signup.html">Join</a>
+            <a class="btn" href="business-add.html">Add Business</a>
+            <a class="btn" href="jobs-post.html">Post Job</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navGroup">
+        <div class="navTitle">Navigation</div>
+<a class="navItem" data-nav="home" href="index.html"><span class="navIc">🏠</span><span>Home</span></a>
+<a class="navItem" data-nav="business-search" href="business-search.html"><span class="navIc">🏪</span><span>Business Directory</span></a>
+<a class="navItem" data-nav="business-add" href="business-add.html"><span class="navIc">➕</span><span>Add Business</span></a>
+<a class="navItem" data-nav="jobs-search" href="jobs-search.html"><span class="navIc">💼</span><span>Jobs</span></a>
+<a class="navItem" data-nav="jobs-post" href="jobs-post.html"><span class="navIc">📌</span><span>Post Job</span></a>
+<a class="navItem" data-nav="resume-upload" href="resume-upload.html"><span class="navIc">📄</span><span>Resume Upload</span></a>
+<a class="navItem" data-nav="resume-search" href="resume-search.html"><span class="navIc">🔎</span><span>Resume Search</span></a>
+<a class="navItem" data-nav="members" href="members.html"><span class="navIc">👥</span><span>Members</span></a>
+<a class="navItem" data-nav="contact" href="contact.html"><span class="navIc">☎️</span><span>Contact</span></a>
+<a class="navItem" data-nav="login" href="login.html"><span class="navIc">🔐</span><span>Login</span></a>
+<a class="navItem" data-nav="signup" href="signup.html"><span class="navIc">📝</span><span>Sign Up</span></a>
+      </div>
+
+      <div style="margin-top:auto" class="help">
+        <b>Admin Note:</b> This is frontend demo.<br>Connect Laravel backend later.
+      </div>
+    </aside>
+    
+  <div>
+    
+    <header class="topbar">
+      <div class="container">
+        <div class="topbarInner">
+          <button class="iconBtn" id="openDrawer" aria-label="Open menu">☰</button>
+          <a class="brand" href="index.html" style="gap:10px">
+            <div class="logo" style="width:38px;height:38px;border-radius:14px">M</div>
+            <div>
+              <b style="font-size:13px">Maheshwari Samaj</b>
+              <small style="font-weight:800">Navyuvak Mandal</small>
+            </div>
+          </a>
+          <a class="iconBtn" href="login.html" aria-label="Login">🔐</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobileDrawer" id="mobileDrawer" aria-label="Mobile menu">
+      <div class="drawerPanel">
+        <div class="drawerCloseRow">
+          <div class="brand">
+            <div class="logo" style="width:40px;height:40px">M</div>
+            <div><b>Maheshwari Samaj</b><small>Navyuvak Mandal Portal</small></div>
+          </div>
+          <button class="iconBtn" id="closeDrawer" aria-label="Close menu">✕</button>
+        </div>
+
+        <div class="card" style="box-shadow:none; margin-bottom:10px">
+          <div class="cardBd">
+            <div class="help"><b>Quick Actions</b></div>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+              <a class="btn yellow" href="signup.html">Join</a>
+              <a class="btn" href="business-add.html">Add Business</a>
+              <a class="btn" href="jobs-post.html">Post Job</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navGroup">
+          <div class="navTitle">Navigation</div>
+          <a class="navItem" data-nav="home" href="index.html"><span class="navIc">🏠</span><span>Home</span></a>
+          <a class="navItem" data-nav="business-search" href="business-search.html"><span class="navIc">🏪</span><span>Business Directory</span></a>
+          <a class="navItem" data-nav="business-add" href="business-add.html"><span class="navIc">➕</span><span>Add Business</span></a>
+          <a class="navItem" data-nav="jobs-search" href="jobs-search.html"><span class="navIc">💼</span><span>Jobs</span></a>
+          <a class="navItem" data-nav="jobs-post" href="jobs-post.html"><span class="navIc">📌</span><span>Post Job</span></a>
+          <a class="navItem" data-nav="resume-upload" href="resume-upload.html"><span class="navIc">📄</span><span>Resume Upload</span></a>
+          <a class="navItem" data-nav="resume-search" href="resume-search.html"><span class="navIc">🔎</span><span>Resume Search</span></a>
+          <a class="navItem" data-nav="members" href="members.html"><span class="navIc">👥</span><span>Members</span></a>
+          <a class="navItem" data-nav="contact" href="contact.html"><span class="navIc">☎️</span><span>Contact</span></a>
+          <a class="navItem" data-nav="login" href="login.html"><span class="navIc">🔐</span><span>Login</span></a>
+          <a class="navItem" data-nav="signup" href="signup.html"><span class="navIc">📝</span><span>Sign Up</span></a>
+        </div>
+      </div>
+    </div>
+    
+    <main class="page">
+      <div class="container">
+        
+<div class="contentGrid">
+  <div class="grid">
+    <div class="card">
+      <div class="cardHd">
+        <div>
+          <h3 style="margin:0">Upload Resume</h3>
+          <small>Members can upload resume to be searchable (demo form)</small>
+        </div>
+        <a class="btn" href="jobs-search.html">Back to Jobs</a>
+      </div>
+      <div class="cardBd">
+        <form class="form" data-demo="true">
+          <div class="grid grid2">
+            <div class="field"><label>Full Name</label><input required placeholder="Your name"></div>
+            <div class="field"><label>Preferred Role</label><input required placeholder="e.g., Accountant"></div>
+          </div>
+
+          <div class="grid grid3">
+            <div class="field"><label>Mobile</label><input required placeholder="Mobile"></div>
+            <div class="field"><label>WhatsApp</label><input placeholder="WhatsApp"></div>
+            <div class="field"><label>Email</label><input placeholder="Email"></div>
+          </div>
+
+          <div class="grid grid3">
+            <div class="field"><label>Location</label><input required placeholder="City / Area"></div>
+            <div class="field"><label>Pincode</label><input required placeholder="3020XX"></div>
+            <div class="field"><label>Experience</label>
+              <select required>
+                <option>Fresher</option>
+                <option>0-1 years</option>
+                <option>1-3 years</option>
+                <option>3-5 years</option>
+                <option>5+ years</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid2">
+            <div class="field"><label>Education</label><input required placeholder="e.g., B.Com, MBA, Diploma"></div>
+            <div class="field"><label>Expected Salary</label><input placeholder="e.g., 20k"></div>
+          </div>
+
+          <div class="field"><label>Skills (comma separated)</label><input placeholder="Excel, Tally, Canva..."></div>
+
+          <div class="grid grid2">
+            <div class="field"><label>Resume File (PDF)</label><input type="file" accept="application/pdf"></div>
+            <div class="field"><label>Availability</label><select><option>Immediate</option><option>15 days</option><option>30 days</option></select></div>
+          </div>
+
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <button class="btn primary" type="submit">Submit Resume</button>
+            <a class="btn yellow" href="resume-search.html">Employer Search</a>
+          </div>
+          <div class="help" style="margin-top:10px">Backend idea: privacy controls, verification badge, and download rights for employers.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <aside class="adSlot">
+    <h4>Ad Space</h4>
+    <div class="ph">RIGHT AD</div>
+    <div class="help" style="margin-top:8px">Show resume-related ads here.</div>
+  </aside>
+</div>
+
+      </div>
+    </main>
+
+    <div id="toast" class="toast"></div>
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="footerCols">
+          <div>
+            <h4>About</h4>
+            <p>Community portal for events, notices, business directory and jobs.</p>
+            <small>Frontend demo (static). Connect with Laravel backend later.</small>
+          </div>
+          <div>
+            <h4>Quick Links</h4>
+            <p><a href="business-search.html">Business Search</a> • <a href="jobs-search.html">Jobs</a> • <a href="members.html">Members</a></p>
+            <p><a href="contact.html">Support</a> • <a href="signup.html">Create Account</a></p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <p>Helpline: +91-XXXXXXXXXX</p>
+            <p>Email: support@example.com</p>
+          </div>
+        </div>
+        <div style="margin-top:14px"><small>© 2025 Maheshwari Samaj Navyuvak Mandal.</small></div>
+      </div>
+    </footer>
+    
+  </div>
+</div>
+
+<script src="assets/js/data-business.js"></script>
+<script src="assets/js/data-jobs.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
